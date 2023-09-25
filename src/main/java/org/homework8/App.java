@@ -10,7 +10,6 @@ public class App {
                 ConnectConstants.USER,
                 ConnectConstants.PASSWORD);
         starter.startApp();
-        starter.fillResidents();
     }
 
 }

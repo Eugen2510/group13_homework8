@@ -49,7 +49,7 @@ public class Starter {
 
 
     public void fillResidents(){
-        residents= new ArrayList<>();
+        residents = new ArrayList<>();
         try(ResultSet resultSet = new StatementExecutor().executeQuery(connection, sql)) {
             while (resultSet.next()){
                 ResidentPOJO resident= new ResidentPOJO();
