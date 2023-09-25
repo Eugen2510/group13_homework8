@@ -1,0 +1,6 @@
+24, Дарина Анисимова, anisimova@outlook.com, Shewchenko 3, 4, 98
+27, Наталія Орлова, orlova@ukr.net, Shewchenko 1, 12, 75
+44, Григорій Макаров, makarov@icloud.com, Shewchenko 2, 10, 64
+65, Михайло Захаров, zakharov@gmail.com, Shewchenko 3, 5, 73
+92, Павло Іванов, nullvanov@gmail.com, Shewchenko 5, 14, 99
+99, Тетяна Лебедева, lebedeva@outlook.com, Shewchenko 3, 7, 78
