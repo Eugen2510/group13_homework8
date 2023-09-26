@@ -1,15 +1,14 @@
 package org.homework8;
 
-import org.homework8.connection.ConnectConstants;
-import org.homework8.execute.Starter;
+import org.homework8.execute.QueryExecutor;
+import org.homework8.flyway.MigrationStarter;
 
 public class App {
     public static void main(String[] args) {
-        Starter starter = new Starter(ConnectConstants.MIGRATION_SCRIPTS_PATH,
-                ConnectConstants.URL,
-                ConnectConstants.USER,
-                ConnectConstants.PASSWORD);
-        starter.startApp();
+        QueryExecutor executor = new QueryExecutor();
+
+        MigrationStarter.startMigration();
+        executor.executeQuery();
     }
 
 }
